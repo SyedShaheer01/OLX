@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-wrapper1{
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+}
+.header-wrapper1 img{
+    width: 50px;
+    margin-top: 30px;
+}
+.header1{
+    background-color: rgb(236, 235, 235);
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    position: sticky;
+    top: 0;
+    padding-bottom: 20px;
+    width: 100%;
+    z-index: 1;
+}
+.motor{
+    margin-left: 50px;
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+}
+.m-logo:hover, .p-logo:hover{
+    color: royalblue;
+}
+.olx-big{
+    margin-left: 100px;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    
+}
+.select-box1{
+    position: relative;
+}
+.select-box1 select{
+    outline: none;
+    padding: 10px 85px;
+    font-size: 15px;
+    border: 2px solid black;
+    /* overflow: hidden; */
+    border-radius: 3px;
+}
+.select-box1 i{
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    font-size: 20px;
+    /* width: 100%; */
+}
+.finding{
+    width:100%;
+}
+.finding input{
+    padding: 16px 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 80%;
+    font-size: 13px;
+/* padding-top: 20px;     */
+outline: none;
+}
+.finding i{
+
+ background-color: black;
+    color: white;
+    padding: 17px 15px;
+    /* border: 1px solid black; */
+    
+    cursor: pointer;
+
+
+    /* overflow: hidden; */
+}
+
+.login .btn1{
+    background: none;
+    border:none;
+    font-size: 18px;
+    color: rgb(31, 30, 30);
+    cursor: pointer;
+    border-bottom: 2px solid black;
+    /* border-bottom: 1px solid black; */
+    /* width: 100%; */
+    
+}
+.login{
+    width: 100%;
+}
+
+.login .btn1:hover{
+    border-bottom: none;
+}
+.login .btn2{
+    margin-left: 50px;
+    background: none;
+    border-width: 5px;
+    border-top-color: #23e5db;
+    border-left-color: #ffce32;
+    border-right-color: #3a77ff;
+    border-bottom-color: #3a77ff;
+    cursor: pointer;
+    padding: 7px 25px;
+    border-radius: 30px;
+}
+.nav1{
+    /* margin-left: 80px; */
+ width: 100%;   
+
+    
+}
+.nav1-list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    border-bottom: 3px solid gainsboro;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    background-color: white;
+    width: 100%;
+    /* position: relative; */
+    /* overflow: hidden; */
+/* top: 100px; */
+
+
+}
+.nav1-list h1{
+    font-size: 15px;
+    margin-left: 80px;
+}
+.card-img{
+    display: flex;
+}
+.card-wrapper1{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.card-wrapper1 i{
+    font-size: 20px;
+    cursor: pointer;
+}
+.card-wrapper1 i:hover{
+    color: #ff400f;
+    
+}
+.text1{
+    background-color: #fff;
+    padding: 60px 10px;
+    width: 270px;
+    margin-top: -4px;
+   height: 160px; 
+    border:1px solid rgb(169, 169, 169) ;
+}
+.text1 p{
+    margin-top: -50px;
+}
+.text1 h5{
+    font-size: 15px;
+    color: rgb(47, 47, 47);
+    margin-top: 50px;
+}
+.my-button{
+    margin-left: 575px;
+    margin-top: 80px;
+
+    
+}
+.my-button button{
+    cursor: pointer;
+    background-color: white;
+    padding: 8px 8px;
+    border-radius: 5px;
+}
+.my-button button:hover{
+    border: 3px solid black;
+}
+.add{
+    margin-left: 130px;
+    margin-top: 30px;
+}
+.add1{
+    /* margin-left: 50px; */
+    margin-top: 20px;
+    background-color: rgb(248, 248, 248);
+    padding: 30px;
+    display: flex;
+    padding-bottom: 1px;
+
+}
+
+.banner img{
+margin-left: 140px;
+}
+.apple{
+    border-left:3px solid lightgrey ;
+    height: 170px;
+
+}
+.apple h5{
+    margin-top: 50px;
+    font-size: 14px;
+    margin-left: 30px;
+
+}.apple img{
+    margin-left: 70px;
+    margin-top: -30px;
+}
+.apple-wrapper{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.apple-wrapper img{
+    margin-left: 10px;
+    
+}
+.list-wrapper{
+    background-color:#ebeeef;
+    /* padding-top: 70px; */
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    padding-top: 20px;
+    height: 200px;
+    padding-left: 90px;
+    
+}
+.mylist{
+margin-left: 20px;
+/* padding-bottom: 15px; */
+}
+.mylist li{
+    margin-bottom: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.mylist li:hover{
+    color: rgb(121, 121, 121);
+}
+.mylist h5{
+    font-size: 15px;
+}
+.mylist img{
+    height:25px;
+    /* width: 7%; */
+    cursor: pointer;
+}
+.secondimg{
+    margin-top: 30px;
+    
+}
+.secondimg img{
+    /* width: 10%; */
+    height: 23px;
+}
+.last{
+    display: flex;
+    background-color: #002f34;
+    color: white;
+    justify-content: flex-end;
+ padding-right: 100px;
+ gap: 15px;
+ padding-bottom: 20px;
+ /* align-items: center; */
+ padding-top: 20px;
+}
+.last h1{
+    font-size: 18px;
+    
+}
+
+@media only screen and (max-width:600px){
+    .header1{
+     width: 300%;   
+    }
+    .header-wrapper1{
+        margin-left: 20px;
+    }
+    .m-logo{
+        margin-left: -30px;
+    }
+    .olx-logo{
+        margin-left: -70px;
+    
+    }
+    .olx-logo svg{
+        width: 50px;
+    }
+    .select-box1 select{
+        padding: 9px 30px;
+    }
+    .finding input{
+        /* padding: 10px 30px; */
+        width: 25%;
+    }
+     .login .btn1{
+        margin-left: -380px;
+        
+}
+    .login .btn2{
+        margin-left: 5px;
+        font-size: 15px;
+        padding: 8px 18px;
+        
+
+    }
+}
